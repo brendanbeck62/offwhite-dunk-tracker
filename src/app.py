@@ -1,6 +1,4 @@
 import requests
-from stockxsdk import Stockx
-from stockxsdk.product import StockxProduct
 
 def search(query):
     endpoint = 'https://stockx.com/api/products/' + query + '?includes=market'
