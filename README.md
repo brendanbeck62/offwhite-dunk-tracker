@@ -8,3 +8,7 @@ That is the problem this app solves.
 ## Deployment
 Lambda?
 Probably make it a subdomain of my brendanbeck.com
+
+
+### Credit
+stockx-sdk is taken from [nikevp](https://github.com/nikevp/stockx-py-sdk)
