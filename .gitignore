@@ -18,3 +18,5 @@ crash.log
 #
 *.tfvars
 
+# Exclude the zipped lambda payload
+*.zip
