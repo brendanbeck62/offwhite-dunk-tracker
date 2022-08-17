@@ -32,6 +32,13 @@ resource "aws_s3_bucket_acl" "lambda_bucket_acl" {
   acl    = "private"
 }
 
+#data "archive_file" "dependencies" {
+#  type = "zip"
+#
+#  source_dir  = "${path.module}/src/package"
+#  output_path = "${path.module}/src/dependencies.zip"
+#}
+
 data "archive_file" "lambda_payload" {
   type = "zip"
 
