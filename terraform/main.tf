@@ -42,7 +42,7 @@ resource "aws_s3_bucket_acl" "lambda_bucket_acl" {
 data "archive_file" "lambda_payload" {
   type = "zip"
 
-  source_dir  = "${path.module}/src"
+  source_dir  = "${path.module}/../src"
   output_path = "${path.module}/app.zip"
 }
 
