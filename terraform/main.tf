@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "offwhite-dunk-tracker-remote-state"
+    bucket         = "356960567614-us-west-2-remote-state"
     encrypt        = true
-    dynamodb_table = "offwhite-dunk-tracker-remote-state-lock"
-    key            = "terraform.tfstate"
+    dynamodb_table = "356960567614-us-west-2-remote-state-lock"
+    key            = "offwhite-dunk-tracker.tfstate"
     region         = "us-west-2"
   }
 }
